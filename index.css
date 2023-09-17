@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding:0px;
+    /* box-sizing: border-box; */
+    /* background-color: antiquewhite; */
+    /* background-image:url(pexels-veeterzy-303383.jpg);
+    background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-size: 100% 100%; */
+  /* background-image: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
+  background-image: url(pexels-johannes-plenio-1103970.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  /* position: relative;
+  overflow: hidden; */
+}
+/* .img-overlay{
+    background-color: antiquewhiteS;
+} */
+
+
+
+.buttons{
+    border: 1px solid white;
+     /* display: flex; */
+     /* display:flexbox;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 25px; */ 
+    height: 320px;
+    width: 571px;
+    margin:  auto;
+    padding: 50px;
+    margin-top: 40px;
+}
+button{
+    background-color: pink;
+    height: 42px;
+    width: 99px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: larger;
+    border: 1px solid black;
+}
+button:hover{
+    color:white;
+    /* background-color: darkgreen; */
+    /* height: 10px;
+    width:40px; */
+    transition: 0.5s;
+}
+
+/* .inputText{
+    border: 10px solid green;
+    margin: auto;
+    width: 20px;
+    height: 25px; */
+/* } */
+#input1{
+    height: 45px;
+    width: 476px;
+    margin-left: 531px;
+    margin-top: 100px;
+    border: 1px solid black;
+    font-size: large;
+}
+
+.footer{
+    /* border: 1px solid white; */
+    height: 50px;
+    /* width: 1027px; */
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgb(88, 152, 152);
+}
+#owner{
+    padding:16px;
+    color: white;
+
+}
+#tittle{
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 29px;
+    width: 300px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+/* .total{
+    border: 1px solid white;
+} */
+
+#minus{
+    font-size: 30px;
+}

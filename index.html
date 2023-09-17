@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body >
+    <h2 id="tittle"> Andriod Calculator</h2>
+    <!-- <div class="inputText"> -->
+        <div class="total">
+        <input type="text" name="input1" id="input1">
+    <!-- </div> -->
+
+    <div class="buttons">
+
+        <button type="button" onclick="input1.value+=9">9</button>
+        <button type="button" onclick="input1.value+=8">8</button>
+        <button type="button" onclick="input1.value+=7">7</button>
+        <button type="button" onclick="input1.value+='+'">+</button>
+        <br>
+        <button type="button" onclick="input1.value+=6">6</button>
+        <button type="button" onclick="input1.value+=5">5</button>
+        <button type="button" onclick="input1.value+=4">4</button>
+        <button type="button" onclick="input1.value+='-'"><span id="minus">-</span></button>
+        <br>
+        <button type="button" onclick="input1.value+=3">3</button>
+        <button type="button" onclick="input1.value+=2">2</button>
+        <button type="button" onclick="input1.value+=1">1</button>
+        <button type="button" onclick="input1.value+='*'">x</button>
+        <br>
+        <button type="button" onclick="input1.value+='/'"><span id="minus">÷</span></button>
+        <button type="button" onclick="input1.value=+0">0</button>
+        <button type="button" onclick="input1.value=' '">clear</button>
+        <button type="button" onclick="input1.value=eval(input1.value)" id="submit">=</button>
+        
+        <br>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+<footer>
+    <div class="footer">
+        <h2 id="owner"> &#169; Design And Developed By Syed Sharif</h2>
+    </div>
+</footer>
+</html>
